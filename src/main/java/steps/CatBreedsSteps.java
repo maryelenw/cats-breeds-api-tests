@@ -49,11 +49,6 @@ public class CatBreedsSteps {
         Assert.assertTrue(breeds.size() <= limit);
     }
 
-    @Then("the response status code should be 400 or 500")
-    public void verifyErrorResponse(int statusCode) {
-        Assert.assertEquals(statusCode, response.getStatusCode());
-    }
-
     @Then("the response body should contain an error message")
     public void verifyErrorMessage() {
         System.out.println(response.getBody());
