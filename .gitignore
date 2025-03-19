@@ -1,0 +1,18 @@
+# Java compilation files
+*.class
+/target/
+
+# Log files
+*.log
+
+# Configuration files
+*.properties
+*.env
+
+# Dependency directories
+/node_modules/
+/venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
